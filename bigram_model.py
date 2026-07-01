@@ -3,7 +3,7 @@ import torch.nn as nn
 from torch.nn import functional as F
 
 # Hyperparameters
-epochs = 14000
+epochs = 5000
 learning_rate = 1e-3
 batch_size = 4
 block_size = 8
