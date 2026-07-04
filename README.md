@@ -17,3 +17,23 @@ Built while following Andrej Karpathy's ["Let's build GPT: from scratch, in code
 Since it only ever looks at a single previous character, the generated text won't look like real words yet — that's expected at this stage. Adding self-attention (next step) is what lets the model actually learn context.
 
 ## Requirements
+-pytorch
+
+## Usage
+
+```bash
+python bigram.py
+```
+
+Trains for 1000 iterations, printing the loss every 100 steps, then prints 500 characters of generated text.
+
+## Roadmap
+
+- [x] Bigram model
+- [ ] Self-attention (single head)
+- [ ] Multi-head attention
+- [ ] Transformer blocks + full nanoGPT-style architecture
+
+## License
+
+MIT
