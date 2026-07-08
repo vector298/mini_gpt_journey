@@ -30,8 +30,8 @@ Trains for 1000 iterations, printing the loss every 100 steps, then prints 500 c
 ## Roadmap
 
 - [x] Bigram model
-- [ ] Self-attention (single head)
-- [ ] Multi-head attention
+- [x] Self-attention (single head)
+- [x] Multi-head attention
 - [ ] Transformer blocks + full nanoGPT-style architecture
 
 ## License
